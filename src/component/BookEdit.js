@@ -80,5 +80,5 @@ function mapStateToProps(state, ownProps) {
 
 export default compose(
   withRouter,
-  connect(mapStateToProps, { editBook }),
+  connect(mapStateToProps, { editBook })
 )(BookEdit);
